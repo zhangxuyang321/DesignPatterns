@@ -12,6 +12,7 @@ public class SingletonTest {
         System.out.println(DoubleCheckLockSingleton.getInstance() == DoubleCheckLockSingleton.getInstance());
         System.out.println(EagerSingleton.getInstance() == EagerSingleton.getInstance());
         System.out.println(StaticInnerClassSingleton.getInstance() == StaticInnerClassSingleton.getInstance());
-        System.out.println(EnumSingleton.INSTANCE == EnumSingleton.INSTANCE);
+
+        EnumSingleton.INSTANCE.whateverMethod();
     }
 }
