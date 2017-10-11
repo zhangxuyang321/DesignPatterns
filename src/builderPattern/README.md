@@ -30,3 +30,10 @@ public Hero(Profession profession,String name,HairType hairType,HairColor hairCo
 这被称为伸缩构造器的反模式
 
 ## 具体代码编写
+
+> 见builderPackage
+
+## 使用场景
+
+* 复杂对象的创建应该独立于构成此对象的部件以及他们的组合方式
+* 构建过程必须为所造的对象提供不同的表现形式
